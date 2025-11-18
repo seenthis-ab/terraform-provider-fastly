@@ -17,6 +17,7 @@ var vclService = &BaseServiceDefinition{
 		NewServiceSettings(),
 		NewServiceCondition(vclAttributes),
 		NewServiceDomain(vclAttributes),
+		NewServiceH2RouterDomain(vclAttributes),
 		NewServiceHealthCheck(vclAttributes),
 		NewServiceBackend(vclAttributes),
 		NewServiceProductEnablement(vclAttributes),
